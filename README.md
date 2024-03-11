@@ -19,4 +19,12 @@ For this project, I used the dataset from this source: [Online Retail Dataset](h
 <br />
 
 ### DATA PREPARATION
-The data is big, consisting of over half a million of rows swhich is hard to analyse. The first thing I do is to check if the raw data has no duplicate. By highlighting all the necesarry cells, and going to Data Tab, then remove duplicates, I manage to delete 5268 rows. 
+The dataset is substantial, comprising over half a million rows, making it challenging to analyze. Initially, I copied the raw dataset, created a new sheet labeled 'Working Sheet,' and pasted it there. Within my Working Sheet, my first step was to check for duplicates in the raw data. By highlighting the relevant cells and navigating to the Data Tab, I successfully removed duplicates, resulting in the deletion of 5268 rows.
+<br />
+
+<a href="#"><img src="removing duplicates.png" width="850" height="450" alt="descriptive text" /></a>
+<br />
+<span style="color: rgba(0, 0, 0, 0.2);">Removing Duplicates</span>
+
+<br />
+After this step, 
