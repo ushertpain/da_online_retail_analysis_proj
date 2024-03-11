@@ -1,1 +1,1 @@
-<p style="text-align: right;">### Online Retail Analysis</p>
+<h3 style="text-align: center;">Online Retail Analysis</h3>  ![alt text](image.jpg)
