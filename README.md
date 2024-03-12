@@ -86,7 +86,7 @@ The Revenue feature is simply the product of the Quantity and UnitPrice features
 <span style="color: rgba(0, 0, 0, 0.2);">Added Features</span>
 <br />
 <br />
-### DATA VISUALIZATION
+### DATA VISUALIZATION 
 In these steps, I will create some pivot tables and an interactive dashboard. This process is inspired by a YouTuber named Mo Chen. You can watch the video by clicking the image below.
 <br />
 <div align="left"> 
@@ -100,9 +100,9 @@ In these steps, I will create some pivot tables and an interactive dashboard. Th
 ### PIVOT TABLE
 I will first create two sheets, namely: Pivot Table and Dashboard. In the Pivot Table sheet, I will proceed to create a pivot table by clicking on the Insert Tab, then selecting the PivotTable icon. Next, I will select all the cells in my Working Sheet.
 
-To address the first question, I will choose 'Month' for Rows and 'Sum of Revenue' for Values from the PivotTable Field. Following this, I will insert a line chart, rename all axes, and customize the number category.
+To address the first question, I will choose 'Month' for Rows and 'Sum of Revenue' for Values from the PivotTable Field. Following this, I will insert a line chart, rename all axes, and customize the number category. It is evident from the graph that there is seasonality, with November showing consistently high trends, reaching a peak of $1.45 million in total revenue.
 <br />
-<a href="#"><img src="pivot table with chart, monthly revenue.png" width="600" height="325" alt="descriptive text" /></a>
+<a href="#"><img src="pivot table with chart, monthly revenue.png" width="600" height="250" alt="descriptive text" /></a>
 <br />
-<span style="color: rgba(0, 0, 0, 0.2);">Pivot for monthly revenue</span>
+<span style="color: rgba(0, 0, 0, 0.2);">Pivot table for monthly revenue with line chart</span>
 
