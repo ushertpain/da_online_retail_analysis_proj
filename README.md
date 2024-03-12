@@ -73,7 +73,7 @@ There are 6 questions I will answer here:
 
 To address this, I must add six features to my Working Sheet, namely: Year, Month, Holder Item, Sold by Box, Quantity Status, and Revenue.
 
-I will extract the Year and Month from the InvoiceDate feature using the TEXT function. The Holder Item feature will have 'Yes' or 'No' values, determined by this formula: "=IF(IFERROR(SEARCH("holder",C2), "not holder") = "not holder", "No", "Yes")". This formula searches for words similar to 'holder' within each Description value. If it finds the word 'holder', it returns 'Yes'; otherwise, it returns 'No'. The same logic applies to the Sold by Box feature.
+I will extract the Year and Month from the InvoiceDate feature using the TEXT function. The Holder Item feature will have 'Yes' or 'No' values, determined by this formula: "=IF(IFERROR(SEARCH("holder",C2), "not holder") = "not holder", "No", "Yes")". This formula searches for words similar to 'holder' within each Description value. If it finds the word 'holder', it returns 'Yes'; otherwise, it returns 'No' [Reference: SEARCH FUNCTION](https://www.ablebits.com/office-addins-blog/excel-find-search-functions/#:~:text=The%20FIND%20function%20in%20Excel,substring%20within%20a%20text%20string.&text=The%20first%202%20arguments%20are,string%20to%20be%20searched%20within). The same logic applies to the Sold by Box feature.
 
 For the Quantity Status feature, cells will display either 'Positive' or 'Negative' based on this formula: =IF([@Quantity]<0, "Negative", IF([@Quantity]>0,"Positive")).
 
