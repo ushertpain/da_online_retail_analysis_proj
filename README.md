@@ -101,4 +101,8 @@ In these steps, I will create some pivot tables and an interactive dashboard. Th
 I will first create two sheets, namely: Pivot Table and Dashboard. In the Pivot Table sheet, I will proceed to create a pivot table by clicking on the Insert Tab, then selecting the PivotTable icon. Next, I will select all the cells in my Working Sheet.
 
 To address the first question, I will choose 'Month' for Rows and 'Sum of Revenue' for Values from the PivotTable Field. Following this, I will insert a line chart, rename all axes, and customize the number category.
+<br />
+<a href="#"><img src="pivot table with chart, monthly revenue.png" width="600" height="325" alt="descriptive text" /></a>
+<br />
+<span style="color: rgba(0, 0, 0, 0.2);">Pivot for monthly revenue</span>
 
