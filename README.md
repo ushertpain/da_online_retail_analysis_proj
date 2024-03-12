@@ -49,6 +49,14 @@ After removing duplicates, my next step is to check for blank values using the S
 The next step involves navigating to the Insert Tab, allowing me to create a table that includes data from all the necessary cells for further analysis.
 <br />
 <br />
+<a href="#"><img src="create table.png" width="750" height="225" alt="descriptive text" /></a>
+<br />
+<span style="color: rgba(0, 0, 0, 0.2);">Creating Table</span>
+<br />
+<br />
 
 Upon checking the feature quantity filter, I discovered that some entries have negative quantity values. However, upon analyzing, I realized that these negative numbers may represent items that were likely removed due to expiration or the end of a promotion. Therefore, I decided to retain these instances of negative quantity for further analysis.
+<a href="#"><img src="negative quantity.png" width="750" height="225" alt="descriptive text" /></a>
+<br />
+<span style="color: rgba(0, 0, 0, 0.2);">Negative Quantity</span>
 
