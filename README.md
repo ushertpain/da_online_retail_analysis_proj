@@ -26,6 +26,20 @@ The dataset is substantial, comprising over half a million rows, making it chall
 <br />
 <span style="color: rgba(0, 0, 0, 0.2);">Removing Duplicates</span>
 
+
 <br />
 After removing duplicates, my next step is to check for blank values using the Sort and Filter function. Upon filtering the description column, I noticed the presence of "?" values and blanks, prompting me to filter them out entirely. Upon further inspection, I discovered that all values in the price column were 0. Consequently, I made the decision to delete all rows containing such values for my analysis.
+<br />
+<br />
+<a href="#"><img src="like values with question mark and blanks.png" width="700" height="450" alt="descriptive text" /></a>
+<br />
+<span style="color: rgba(0, 0, 0, 0.2);">Values with "?" like, and Blanks</span>
+
+<br />
+<br />
+<br />
+<a href="#"><img src="zero price.png" width="700" height="450" alt="descriptive text" /></a>
+<br />
+<span style="color: rgba(0, 0, 0, 0.2);">0 Price</span>
+
 <br />
