@@ -111,4 +111,10 @@ To address the first question, I will choose 'Month' for Rows and 'Sum of Revenu
 To address the second question, I will duplicate the previous pivot table. Then, in the PivotTable Fields, I will select 'Sold by Box' and drag it into the Columns section. Following this, I will continue to use a Line Chart with the same design, including renamed axis and the same number category as the previous pivot chart I created. It is clearly evident that the peak performance of items sold in boxes remains in November, reaching $15.77K, indicating ongoing seasonal trends.
 <br />
 
+<br />
+<br />
+To tackle the third question, I will duplicate the pivot table containing the sold-by-box items. Then, in the PivotTable Fields, I will replace the 'Sold by Box' feature with 'Holder Item'. I will proceed by applying the same steps used in the previous Line Chart. As anticipated, it exhibits seasonal trends, with its highest peak occurring in November, totaling $64.14K.
+<br />
 
+<br />
+<br />
