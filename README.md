@@ -27,4 +27,5 @@ The dataset is substantial, comprising over half a million rows, making it chall
 <span style="color: rgba(0, 0, 0, 0.2);">Removing Duplicates</span>
 
 <br />
-After this step, 
+After removing duplicates, my next step is to check for blank values using the Sort and Filter function. Upon filtering the description column, I noticed the presence of "?" values and blanks, prompting me to filter them out entirely. Upon further inspection, I discovered that all values in the price column were 0. Consequently, I made the decision to delete all rows containing such values for my analysis.
+<br />
