@@ -59,4 +59,18 @@ Upon checking the feature quantity filter, I discovered that some entries have n
 <a href="#"><img src="negative quantity.png" width="750" height="225" alt="descriptive text" /></a>
 <br />
 <span style="color: rgba(0, 0, 0, 0.2);">Negative Quantity</span>
+<br />
+<br />
+
+There are 6 questions I will answer here:
+1. How is our overall revenue performance to date?
+2. What is the revenue performance of items sold as box sets?
+3. What is the revenue performance of items sold as individual pieces (holder items)?
+4. How many purchases originate from outside the UK?
+5. Can we identify any instances of revenue loss?
+6. What are the top 10 items by description in terms of revenue?
+<br />
+
+To address this, I must add six features to my Working Sheet, namely: Year, Month, Holder Item, Sold by Box, Quantity Status, and Revenue.
+I will extract Year and Month from feature InvoiceDate, using the TEXT function. Holder Item feature will have yes or no values by using this formula "=IF(IFERROR(SEARCH("holder",C2), "not holder") = "not holder", "No", "Yes")", this formula will search the holder like words inside each values from Description, then it will give Yes if it find "holder" word, and No otherwise.
 
