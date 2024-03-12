@@ -104,5 +104,11 @@ To address the first question, I will choose 'Month' for Rows and 'Sum of Revenu
 <br />
 <a href="#"><img src="pivot table with chart, monthly revenue.png" width="600" height="250" alt="descriptive text" /></a>
 <br />
-<span style="color: rgba(0, 0, 0, 0.2);">Pivot table for monthly revenue with line chart</span>
+<span style="color: rgba(0, 0, 0, 0.2);">Pivot table and charts for Monthly revenue</span>
+<br />
+<br />
+
+To address the second question, I will duplicate the previous pivot table. Then, in the PivotTable Fields, I will select 'Sold by Box' and drag it into the Columns section. Following this, I will continue to use a Line Chart with the same design, including renamed axis and the same number category as the previous pivot chart I created. It is clearly evident that the peak performance of items sold in boxes remains in November, reaching $15.77K, indicating ongoing seasonal trends.
+<br />
+
 
