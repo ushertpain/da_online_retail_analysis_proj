@@ -80,3 +80,7 @@ For the Quantity Status feature, cells will display either 'Positive' or 'Negati
 I've added these features to enable us to assess revenue losses by using them as filters in our dashboard. Additionally, we can evaluate the total revenue with no loss. We can also identify the bottom 10 items by Description that have negative total revenue.
 
 The Revenue feature is simply the product of the Quantity and UnitPrice features. 
+<br />
+<a href="#"><img src="added_features.png" width="600" height="200" alt="descriptive text" /></a>
+<br />
+<span style="color: rgba(0, 0, 0, 0.2);">Added Features</span>
