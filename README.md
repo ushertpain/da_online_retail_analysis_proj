@@ -72,5 +72,11 @@ There are 6 questions I will answer here:
 <br />
 
 To address this, I must add six features to my Working Sheet, namely: Year, Month, Holder Item, Sold by Box, Quantity Status, and Revenue.
-I will extract Year and Month from feature InvoiceDate, using the TEXT function. Holder Item feature will have yes or no values by using this formula "=IF(IFERROR(SEARCH("holder",C2), "not holder") = "not holder", "No", "Yes")", this formula will search the holder like words inside each values from Description, then it will give Yes if it find "holder" word, and No otherwise.
 
+I will extract the Year and Month from the InvoiceDate feature using the TEXT function. The Holder Item feature will have 'Yes' or 'No' values, determined by this formula: "=IF(IFERROR(SEARCH("holder",C2), "not holder") = "not holder", "No", "Yes")". This formula searches for words similar to 'holder' within each Description value. If it finds the word 'holder', it returns 'Yes'; otherwise, it returns 'No'. The same logic applies to the Sold by Box feature.
+
+For the Quantity Status feature, cells will display either 'Positive' or 'Negative' based on this formula: =IF([@Quantity]<0, "Negative", IF([@Quantity]>0,"Positive")).
+
+I've added these features to enable us to assess revenue losses by using them as filters in our dashboard. Additionally, we can evaluate the total revenue with no loss. We can also identify the bottom 10 items by Description that have negative total revenue.
+
+The Revenue feature is simply the product of the Quantity and UnitPrice features. 
