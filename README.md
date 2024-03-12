@@ -31,15 +31,24 @@ The dataset is substantial, comprising over half a million rows, making it chall
 After removing duplicates, my next step is to check for blank values using the Sort and Filter function. Upon filtering the description column, I noticed the presence of "?" values and blanks, prompting me to filter them out entirely. Upon further inspection, I discovered that all values in the price column were 0. Consequently, I made the decision to delete all rows containing such values for my analysis.
 <br />
 <br />
-<a href="#"><img src="like values with question mark and blanks.png" width="700" height="450" alt="descriptive text" /></a>
+<a href="#"><img src="like values with question mark and blanks.png" width="600" height="375" alt="descriptive text" /></a>
 <br />
 <span style="color: rgba(0, 0, 0, 0.2);">Values with "?" like, and Blanks</span>
 
 <br />
 <br />
 <br />
-<a href="#"><img src="zero price.png" width="700" height="450" alt="descriptive text" /></a>
+<a href="#"><img src="zero price.png" width="600" height="300" alt="descriptive text" /></a>
 <br />
 <span style="color: rgba(0, 0, 0, 0.2);">0 Price</span>
 
 <br />
+
+
+### DATA MANIPULATION & ANALYSIS
+The next step involves navigating to the Insert Tab, allowing me to create a table that includes data from all the necessary cells for further analysis.
+<br />
+<br />
+
+Upon checking the feature quantity filter, I discovered that some entries have negative quantity values. However, upon analyzing, I realized that these negative numbers may represent items that were likely removed due to expiration or the end of a promotion. Therefore, I decided to retain these instances of negative quantity for further analysis.
+
