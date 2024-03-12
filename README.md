@@ -84,3 +84,13 @@ The Revenue feature is simply the product of the Quantity and UnitPrice features
 <a href="#"><img src="added_features.png" width="600" height="200" alt="descriptive text" /></a>
 <br />
 <span style="color: rgba(0, 0, 0, 0.2);">Added Features</span>
+<br />
+<br />
+### DATA VISUALIZATION
+In these steps, I will create some pivot tables and an interactive dashboard. This process is inspired by a YouTuber named Mo Chen. You can watch the video by clicking the image below.
+<br />
+<div align="left"> 
+      <a href="https://www.youtube.com/watch?v=m13o5aqeCbM">
+         <img src="https://i.ytimg.com/vi/m13o5aqeCbM/hq720.jpg" style="width:25% height:25%;">
+      </a>
+</div>
