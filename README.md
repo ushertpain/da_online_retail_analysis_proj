@@ -104,16 +104,36 @@ To address the first question, I will choose 'Month' for Rows and 'Sum of Revenu
 <br />
 <a href="#"><img src="pivot table with chart, monthly revenue.png" width="600" height="250" alt="descriptive text" /></a>
 <br />
-<span style="color: rgba(0, 0, 0, 0.2);">Pivot table and charts for Monthly revenue</span>
+<span style="color: rgba(0, 0, 0, 0.2);">Pivot Table and Chart for Renue</span>
 <br />
 <br />
 
 To address the second question, I will duplicate the previous pivot table. Then, in the PivotTable Fields, I will select 'Sold by Box' and drag it into the Columns section. Following this, I will continue to use a Line Chart with the same design, including renamed axis and the same number category as the previous pivot chart I created. It is clearly evident that the peak performance of items sold in boxes remains in November, reaching $15.77K, indicating ongoing seasonal trends.
 <br />
+<a href="#"><img src="solb by box pivot T and C.png" width="650" height="300" alt="descriptive text" /></a>
+<br />
+<span style="color: rgba(0, 0, 0, 0.2);">Pivot Table and Chart for Sold by Box Item</span>
+<br />
 
 <br />
 <br />
 To tackle the third question, I will duplicate the pivot table containing the sold-by-box items. Then, in the PivotTable Fields, I will replace the 'Sold by Box' feature with 'Holder Item'. I will proceed by applying the same steps used in the previous Line Chart. As anticipated, it exhibits seasonal trends, with its highest peak occurring in November, totaling $64.14K.
+<br />
+<a href="#"><img src="holder items PT and PC.png" width="650" height="300" alt="descriptive text" /></a>
+<br />
+<span style="color: rgba(0, 0, 0, 0.2);">Pivot Table and Chart for Holder Item</span>
+<br />
+
+<br />
+<br />
+To address question number four, I will use a Pie Chart to illustrate the comparison between sales in the UK and those in other countries. First, I will duplicate the pivot table. Then, I will deselect all previously chosen fields in the PivotTable Fields and select the 'Country' field for rows and the 'Revenue' field for values. The calculation for the value field will remain set to sum.
+<br />
+<br />
+As the Pie Chart visualizes the data, it becomes evident that the UK accounts for 84% of total revenue sales. To simplify the visualization, I will group all other countries into a single category named "Others." I will then apply the same theme used for the Line Chart and provide it with an appropriate title. The Pie Chart will demonstrate that only 16% of total revenue originates from outside of the UK.
+<br />
+<a href="#"><img src="UK and other country PT and PC(2).png" width="650" height="300" alt="descriptive text" /></a>
+<br />
+<span style="color: rgba(0, 0, 0, 0.2);">Pivot Table and Chart for Country</span>
 <br />
 
 <br />
