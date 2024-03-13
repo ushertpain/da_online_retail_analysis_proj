@@ -157,6 +157,21 @@ Question number 6 can be addressed using a bar chart arranged in descending orde
 <br />
 
 ### DASHBOARD
+In this section, I will be constructing the dashboard. The initial step involves navigating to my Dashboard sheet. In column A, I adjust the width to 1, and for row 1, I set the height to 5. Then, I merge some cells and fill them with a green color, labeling it as 'Online Retail Sales Dashboard'. Below are the steps I followed to create the dashboard:
+
+1. I duplicate the line chart titled 'Total Sales Over Time' from the pivot table sheet and paste it into my dashboard sheet. Following this, I insert Timelines by selecting the copied line chart and accessing the Insert tab. I then choose 'Invoice Date' and style it with a green color, positioning it in the top left corner.<br />
+<a href="#"><img src="TImeline(1).png" width="900" height="125" alt="descriptive text" /></a>
+
+2. I resize and rearrange the chart to ensure it fits appropriately within the dashboard.
+<a href="#"><img src="arrange the charts.png" width="900" height="450" alt="descriptive text" /></a>
+
+3. Slicers are added to facilitate visualization based on the questions we initially posed. Specifically, I include slicers for Quarter to analyze quarterly performance and Quantity Status to assess revenue performance with or without negative revenue. I arrange these elements and remove gridlines for a cleaner appearance.
+<a href="#"><img src="Dashboard.png" width="900" height="450" alt="descriptive text" /></a>
+
+4. I ensure that all slicers are connected to all charts, enabling interactive filtering across the dashboard. This is accomplished by right-clicking on each slicer, navigating to 'Report Connection', and ensuring that all pivot tables are selected.
+<a href="#"><img src="slicer connection.png" width="700" height="450" alt="descriptive text" /></a>
+<br />
+
 Here's a brief video showcasing the interactive dashboard I've built using MS Excel. Simply click on the cat image to view it.
 <br />
 <div align="left"> 
