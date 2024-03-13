@@ -181,3 +181,15 @@ Here's a brief video showcasing the interactive dashboard I've built using MS Ex
 </div>
 <br />
 
+### CONCLUSION
+Despite the dataset covering only a one-year timeline, noticeable seasonality in revenue persists. However, there is a discernible upward trend in revenue over time. Additionally, with nearly 20% of buyers originating from outside the UK within this timeframe, it is evident that this online retail store is attracting a diverse customer base. These trends suggest that the store should continue its efforts to maintain and improve its performance.
+
+The summary of Online Retail analysis:
+- I analyzed revenue trends by month using a line chart. November stood out with a peak revenue of $1.45 million, indicating seasonality.
+- I examined revenue trends for items sold as boxes, finding that November remained the peak month with $15.77K in revenue.
+- I investigated revenue trends for holder items, observing a seasonal peak in November with $64.14K in revenue.
+- A pie chart compared UK sales to other countries, revealing that the UK accounted for 84% of total revenue. Only 16% of revenue originated from outside the UK.
+- I explored instances of negative revenue using a pivot table, identifying a peak loss of approximately $0.28 million in December.
+- A bar chart displayed the top revenue-generating item descriptions, with 'DOTCOM POSTAGE' leading at over $0.206 million in total revenue.
+
+# Thank you for reading.
