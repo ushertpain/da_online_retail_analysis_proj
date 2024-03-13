@@ -147,3 +147,22 @@ To address question number 5, we will utilize the first pivot table we created. 
 
 <br />
 <br />
+Question number 6 can be addressed using a bar chart arranged in descending order based on the Description feature's total Revenue for each unique Description value. To achieve this, I will duplicate a pivot table on my pivot table sheet, deselect all fields, and add the Description field to Rows and 'Sum of Revenue' to Values. Next, in the pivot table, I'll right-click, navigate to Filter, and select Top 10. In the Top 10 Filter box, I'll choose 'top', '10', 'items', and 'Sum of Revenue'. This will display the top Item Descriptions with the highest total revenue. We observe that our top-performing item, based on revenue, is 'DOTCOM POSTAGE', generating over $0.206 million in total revenue.
+<br />
+<a href="#"><img src="top 10 items PT and PC.png" width="550" height="300" alt="descriptive text" /></a>
+<br />
+<span style="color: rgba(0, 0, 0, 0.2);">Top 10 Items</span>
+<br />
+
+<br />
+
+### DASHBOARD
+Here's a brief video showcasing the interactive dashboard I've built using MS Excel. Simply click on the cat image to view it.
+<br />
+<div align="left"> 
+      <a href="https://www.veed.io/view/9cf6f97b-40d2-4881-9c59-bf26d7c1ad52?panel=share">
+         <img src="cat pc.png" width="360" height="475"">
+      </a>
+</div>
+<br />
+
