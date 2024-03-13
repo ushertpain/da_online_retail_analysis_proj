@@ -131,9 +131,18 @@ To address question number four, I will use a Pie Chart to illustrate the compar
 <br />
 As the Pie Chart visualizes the data, it becomes evident that the UK accounts for 84% of total revenue sales. To simplify the visualization, I will group all other countries into a single category named "Others." I will then apply the same theme used for the Line Chart and provide it with an appropriate title. The Pie Chart will demonstrate that only 16% of total revenue originates from outside of the UK.
 <br />
-<a href="#"><img src="UK and other country PT and PC(2).png" width="650" height="300" alt="descriptive text" /></a>
+<a href="#"><img src="UK and other country PT and PC(2).png" width="550" height="300" alt="descriptive text" /></a>
 <br />
 <span style="color: rgba(0, 0, 0, 0.2);">Pivot Table and Chart for Country</span>
+<br />
+
+<br />
+<br />
+To address question number 5, we will utilize the first pivot table we created. In the PivotTable Fields, I will add the 'Quantity Status' to filters, enabling us to examine all instances with negative revenue. Upon observation, we note a peak of declining trends in December, resulting in an approximate revenue loss of $0.28 million.
+<br />
+<a href="#"><img src="added filter to answer question number 5.png" width="550" height="300" alt="descriptive text" /></a>
+<br />
+<span style="color: rgba(0, 0, 0, 0.2);">Negative Revenue</span>
 <br />
 
 <br />
