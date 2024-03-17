@@ -192,4 +192,4 @@ The summary of Online Retail analysis:
 - I explored instances of negative revenue using a pivot table, identifying a peak loss of approximately $0.28 million in December.
 - A bar chart displayed the top revenue-generating item descriptions, with 'DOTCOM POSTAGE' leading at over $0.206 million in total revenue.
 
-# Thank you for reading.
+Thank you for reviewing the data analysis. Have a pleasant day!
